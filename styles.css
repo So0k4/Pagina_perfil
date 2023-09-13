@@ -1,0 +1,210 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+
+button {
+    background-color: aqua;
+    color: white;
+    width: 80px;
+}
+
+.container {
+    border: 5px solid green;
+    display: flex;
+}
+
+.rojito {
+    background-color: red;
+    height: 800px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.moradito {
+    background-color: purple;
+    flex: 2;
+    height: 50px;
+}
+
+.perfil {
+    border: 2px solid white;
+    height: 400px;
+    width: 500px;
+    margin: 25px;
+    margin-left: 100px;
+}
+
+.usuario {
+    background-color: aqua;
+    position: relative;
+    height: 100px;
+}
+
+#elwea {
+    border-radius: 50%;
+    left: 10px;
+    top: 50px;
+    height: 100px;
+    position: absolute;
+}
+
+.ser {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.text {
+    margin-bottom: 5px;
+}
+
+.icono {
+    height: 25px;
+    margin-top: 15px;
+}
+
+.naranjito {
+    background-color: orange;
+    flex: 1;
+}
+
+.noticias {
+    border: 2px solid white;
+    height: 200px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.titulonoticias {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.titulo1 {
+    margin-left: 25px;
+}
+
+.informacion {
+    margin-left: 25px;
+}
+
+.azulito {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rosadito {
+    background-color: pink;
+    flex: 1;
+}
+
+.connections {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 45px;
+}
+
+.solicitudes {}
+
+.numerodesolicitudes {
+    align-items: center;
+    background-color: gray;
+    display: flex;
+    height: 35px;
+}
+
+#numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(196, 196, 196);
+    color: white;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+h5 {
+    background-color: gray;
+    color: white;
+}
+
+.persona {
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.quieres {
+    margin: 2px;
+    border-radius: 50%;
+    height: 20px;
+}
+
+#todd {
+    border-radius: 50%;
+    height: 50px;
+}
+
+#phil {
+    margin-left: 25px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.celestito {
+    background-color: aqua;
+    flex: 2;
+}
+.connectionsf{
+    border: 2px solid gray;
+    height: 375px;
+    width: 200px;
+    margin: 25px;
+    margin-left: 45px;
+}
+
+#friend{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.masamigos{
+    border: 2px solid gray;
+    height: 30px;
+    width: 200px;
+}
